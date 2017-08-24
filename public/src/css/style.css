@@ -1,0 +1,120 @@
+
+/*#banner {
+  width: 100vw;
+  position: fixed;
+  z-index: 5;
+  padding-bottom: 18px;
+  background-color: white;
+  transition: all 0.5s linear;
+}*/
+
+.active {
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.4);
+}
+
+nav.navbar{
+  background-color:white;
+   // Animation
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+
+nav.navbar.shrink {
+  min-height: 35px;
+  font-size: 60px;
+  transition: all 0.4s ease;
+}
+nav.navbar.shrink.remove-title h1{
+  /*min-height: 35px;
+  font-size: 0px;
+  padding-bottom: 10px;*/
+  visibility: hidden;
+}
+
+.input-group{
+  padding-bottom: 10px;
+}
+html,body
+{
+  height:100%;
+}
+
+/*header title font*/
+.fancy-heading h1 {
+  font-family: 'Lily Script One', cursive;
+  font-size: 120px;
+  padding-top: 20px;
+  margin-bottom: 40px;
+  color:#1DA1F2;
+  transition: all 0.6s ease;
+}
+.shrink .fancy-heading h1 {
+  font-family: 'Lily Script One', cursive;
+  font-size: 60px;
+  padding-top: 5px;
+  margin-bottom: 10px;
+  color:#1DA1F2;
+  transition: all 0.6s ease;
+}
+.remove-title .fancy-heading h1 {
+  font-family: 'Lily Script One', cursive;
+  font-size: 0px;
+  margin-bottom: 0px;
+  color:#1DA1F2;
+}
+
+
+#twitterOutput {
+  padding-top: 280px;
+  z-index: 1;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  min-height: 100%;
+  overflow: auto;
+}
+
+.clickable:hover {
+  cursor: pointer;
+  background-color: #E8E8E8;
+
+}
+
+
+/*icons for input sections*/
+.button-icons{
+  width: 20px;
+  height: 20px;
+  color:#1DA1F2;
+  margin-right: 5px;
+}
+.button-icon-at{
+  color:#1DA1F2;
+}
+
+/*footer section*/
+
+.footer{
+  background-color: #cfcfcf;
+  height: 10%;
+  position: absolute;
+  width: 100%;
+  margin-top: 1%
+}
+.footer-content{
+  margin-top: 3%;
+}
+li .footer-icons{
+  font-size: 30px;
+  padding-left: 10px;
+.connectRefused
+{
+    background-color: #fff;
+}
+
+
+.foo-bar{
+
+  z-index: 10 !important;
+  background-image: url("../img/notes.gif");
+}
