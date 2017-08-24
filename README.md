@@ -37,3 +37,12 @@ vim .env
 ```bash
 yarn start
 ```
+
+## Heroku
+
+```bash
+heroku config:set CONSUMER_KEY=111111111
+heroku config:set CONSUMER_SECRET=111111111
+heroku config:set ACCESS_TOKEN_KEY=111111111
+heroku config:set ACCESS_TOKEN_SECRET=111111111
+```
