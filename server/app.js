@@ -7,8 +7,6 @@ var twittermiddleware = require('./twittermiddleware');
 //To prevent cross-origin issues...yeah next level... oh yeah
 //enables cors for all routes
 app.use(cors());
-//serves everything in the public folder. ie. index.html and client.js
-app.use(express.static('public'));
 
 //route for tweets called by tweets function
 app.get('/tweets/:handle', twittermiddleware.tweets);
@@ -23,9 +21,10 @@ app.get('/favorites/:handle', twittermiddleware.favorites);
 
 //app.get('/status', twitter.status);
 
+const port = process.env.PORT || 3000;
+
 //initialize the server on port 3000
-app.listen(3000, function()
-{
+app.listen(port, function() {
   //log out status
-  console.log("CORS-enabled, listening on 3000");
+  console.log(`CORS-enabled, listening on ${port}`);
 });

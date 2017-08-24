@@ -28,6 +28,7 @@
     "jasmine": "^2.6.0",
     "jshint": "^2.9.4",
     "jshint-stylish": "^2.2.1",
+    "prettier": "^1.5.3",
     "terminus": "^1.1.0"
   }
 }
