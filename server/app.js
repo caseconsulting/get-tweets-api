@@ -21,10 +21,8 @@ app.get('/favorites/:handle', twittermiddleware.favorites);
 
 //app.get('/status', twitter.status);
 
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
-//initialize the server on port 3000
-app.listen(port, function() {
-  //log out status
-  console.log(`CORS-enabled, listening on ${port}`);
+app.listen(PORT, function() {
+  console.log(`CORS-enabled, listening on ${PORT}`);
 });

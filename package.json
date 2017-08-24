@@ -28,5 +28,9 @@
     "jshint-stylish": "^2.2.1",
     "prettier": "^1.5.3",
     "terminus": "^1.1.0"
+  },
+  "engines": {
+    "node": "8.4.x",
+    "yarn": "0.27.5"
   }
 }
