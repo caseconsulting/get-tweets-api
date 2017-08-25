@@ -40,6 +40,12 @@ yarn start
 
 ## Heroku
 
+Create the application.
+
+```bash
+heroku apps:create case-get-tweets
+```
+
 ```bash
 heroku config:set CONSUMER_KEY=111111111
 heroku config:set CONSUMER_SECRET=111111111
